@@ -1,5 +1,6 @@
 <template>
   <div class="facility">
+    
    <div class="facility-card-box">
         <div class="facility-card-image-container" v-bind:style="{ 'background-color': background }">
             <img :src = "image" alt = "title" />

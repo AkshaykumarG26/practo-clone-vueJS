@@ -59,12 +59,12 @@
         </div>
       </div>
     </div>
-      <div class="home-try-plus-img-container">
-        <img
-          src="https://www.practostatic.com/subscriptions/images/plus-tag.png"
-          alt="try plus"
-        />
-      </div>
+    <div class="home-try-plus-img-container">
+      <img
+        src="https://www.practostatic.com/subscriptions/images/plus-tag.png"
+        alt="try plus"
+      />
+    </div>
   </div>
 </template>
 

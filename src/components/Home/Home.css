@@ -6,9 +6,10 @@
     overflow-x: hidden;
 }
 
+
+
 .horizontal-line {
     color: gray;
-
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -56,8 +57,9 @@
 
 .home-banner-practo-care {
     /* height: 50px; */
-    width: 300px;
+    width: 250px;
 }
+
 
 .home-banner-left>p:nth-of-type(1) {
     padding-top: 22px;
@@ -97,10 +99,75 @@
     border: none;
 }
 
+@media screen and (max-width: 480px) {
+    .home-banner {
+        cursor: pointer;
+        background: linear-gradient(105.21deg, #3743ab 2.85%, #141b56 99.41%);
+        border-radius: 32px;
+        display: flex;
+        /* flex-direction: column; */
+        width: 90%;
+        margin: auto;
+    }
+
+    .home-banner-left {
+        width: 50%;
+        text-align: left;
+    }
+
+    .home-banner-left>p:nth-of-type(1) {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .home-banner-left>p:nth-of-type(2) {
+        font-weight: 700;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .home-banner-practo-care {
+        /* height: 50px; */
+        width: 100px;
+    }
+
+    .home-banner-right>img {
+        /* display: none; */
+        position: absolute;
+            top: -36px;
+            height: calc(100% + 36px);
+    }
+
+    .btn-knowmore {
+        background: #fff;
+        padding: 5px 12px;
+        font-size: 7px;
+        color: #2d2d32;
+        font-weight: 700;
+        border-radius: 10px;
+        border: none;
+    }
+}
+
+
+
 .home-facilities {
     margin: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+.home-facilities {
+        /* margin: 50px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 .home-consult {
