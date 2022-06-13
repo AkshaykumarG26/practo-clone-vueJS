@@ -1,0 +1,217 @@
+.homepage-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    color: #414146;
+    overflow-x: hidden;
+}
+
+.horizontal-line {
+    color: gray;
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.homepage-container img {
+    max-width: 100%;
+}
+
+.home-search-area {
+    height: 70px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-search-container {
+    width: 712px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.home-search-location-select {
+    color: #414146;
+}
+
+.home-banner {
+    cursor: pointer;
+    background: linear-gradient(105.21deg, #3743ab 2.85%, #141b56 99.41%);
+    border-radius: 32px;
+    height: 300px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.home-banner-left {
+    width: 50%;
+    text-align: left;
+    padding: 40px 0px 40px 60px;
+}
+
+.home-banner-practo-care {
+    /* height: 50px; */
+    width: 300px;
+}
+
+.home-banner-left>p:nth-of-type(1) {
+    padding-top: 22px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.home-banner-left>p:nth-of-type(2) {
+    font-weight: 700;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.home-banner-right {
+    width: 50%;
+    position: relative;
+}
+
+.home-banner-right>img {
+    position: absolute;
+    top: -36px;
+    height: calc(100% + 36px);
+}
+
+.btn-knowmore {
+    background: #fff;
+    padding: 10px 24px;
+    font-size: 14px;
+    color: #2d2d32;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+.home-facilities {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-consult {
+    /* text-align: left; */
+    margin-left: 6%;
+    width: 90%;
+    position: relative;
+}
+
+.home-consult>h2:nth-of-type(1),
+.home-appoinments>h2:nth-of-type(1) {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.home-consult>p:nth-of-type(1) {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.home-consult-card-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.home-appoinments {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 90%;
+}
+
+.appoinments-slider-container {
+    display: flex;
+    /* width: 900px; */
+}
+
+.home-appoinments>p:nth-of-type(1) {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.home-appoinments>h3:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+
+.home-appoinments-card-container {
+    margin-top: 20px;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.home-top-articles {
+    margin-top: 60px;
+    border-top: 1px solid #dfdfe5;
+    border-bottom: 1px solid #dfdfe5;
+    padding: 50px 110px 30px 110px;
+    display: flex;
+}
+
+.home-top-articles-info {
+    margin-right: 10px;
+    padding: 20px;
+    width: 360px;
+    text-align: left;
+}
+
+.home-top-articles-info>h2:nth-of-type(1) {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.home-top-articles-info>p:nth-of-type(1) {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.button-primary {
+    padding: 15px 30px;
+    background-color: #14bef0;
+}
+
+.button {
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.home-store-buttons-container {
+    margin-top: 30px;
+    display: flex;
+}
+
+.button-store {
+    padding: 15px 20px;
+    background-color: #414146;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-right: 15px;
+}

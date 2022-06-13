@@ -1,0 +1,94 @@
+.home-practo-app {
+    margin-top: 60px;
+    height: 576px;
+    /* background-color: #f8f8fb; */
+    width: 100%;
+    /* max-width: 1180px; */
+    /* width: 872px; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /* position: relative; */
+}
+
+.home-practo-app-background {
+    position: absolute;
+    left: 0;
+    background-color: #f8f8fb;
+    height: 576px;
+    z-index: -2;
+    margin: auto;
+    width: 100%;
+}
+
+.home-practo-app-content {
+    width: 930px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-practo-app-image-container {
+    /* position: relative; */
+    height: 100%;
+    width: 50%;
+    /* vertical-align: top; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-practo-app-image-container>img {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* right: 100%; */
+    width: 332px;
+    height: 376px;
+    /* transform: translateY(-50%); */
+}
+
+.home-practo-app-info-container {
+    height: 100%;
+    width: 50%;
+    text-align: left;
+}
+
+.home-practo-app-info-container>h2:nth-of-type(1) {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.home-practo-app-info-container>p:nth-of-type(1) {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.home-practo-app-info-container>p:nth-of-type(2) {
+    margin: 0;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.home-practo-app-input {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.home-practo-app-inputGroup {
+    max-width: 256px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+input {
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    margin-right: 10px;
+}
