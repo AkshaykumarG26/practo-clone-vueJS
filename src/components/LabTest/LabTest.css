@@ -63,6 +63,7 @@
 
 .top_tests>h4 {
     text-align: left;
+    margin-top: 30px;
 }
 
 .test_flex {
@@ -116,6 +117,8 @@
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 5px;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .h_img>img {
@@ -124,10 +127,18 @@
 
 .health_div>h4 {
     text-align: left;
+    margin-left: 30px;
+    
+}
+
+.health_div{
+    width: 90%;
+    text-align: left;
+        margin-top: 30px;
 }
 
 .health_img p {
-    padding-top: 1%;
+    margin-top: 10px;
     font-weight: bolder;
 }
 
