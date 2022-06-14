@@ -19,10 +19,26 @@
 
 
 @media screen and (max-width: 480px) {
-    .consult-card-img-container > img {
-        width: 500px;
-        margin-left: 100px;
-        /* border: 1px solid black;         */
+    .consult-card-img-container>img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .consult-card {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        top: 0;
+        bottom: 0;
+    }
+
+    .title-consult {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 

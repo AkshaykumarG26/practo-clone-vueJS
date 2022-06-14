@@ -1,15 +1,33 @@
-.mainContainer{
+.mainContainer {
     display: flex;
-    
 }
 
+
+@media screen and (max-width: 480px) {
+
+
+    .appoinment-card {
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid black; */
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+        width: 300px;
+    }
+
+
+}
 
 .appoinment-card {
     width: 200px;
     margin-right: 35px;
     cursor: pointer;
-    display: inline-block;
-    flex-shrink: 0;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    /* flex-shrink: 0; */
 }
 
 .appoinment-card-img-container {
