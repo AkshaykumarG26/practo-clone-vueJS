@@ -12,7 +12,7 @@
 .home-practo-app-background {
     position: absolute;
     left: 0;
-    background-color: #f8f8fb;
+    background-color: #4a4a88;
     height: 576px;
     z-index: -2;
     margin: auto;
@@ -20,7 +20,7 @@
 }
 
 .home-practo-app-content {
-    width: 930px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,13 +36,26 @@
     justify-content: center;
 }
 
+
+
 .home-practo-app-image-container>img {
-    /* position: absolute; */
-    /* top: 50%; */
-    /* right: 100%; */
     width: 332px;
     height: 376px;
-    /* transform: translateY(-50%); */
+}
+
+@media screen and (max-width: 480px) {
+
+    .home-practo-app-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: inherit;
+        justify-content: space-between;
+    }
+
+    .home-practo-app-image-container>img {
+        display: none;
+    }
 }
 
 .home-practo-app-info-container {

@@ -1,7 +1,9 @@
 <template>
   <div>
     <section class="home-practo-app">
-      <div class="home-practo-app-background"></div>
+      <div class="home-practo-app-background">
+        
+      </div>
       <div class="home-practo-app-content">
         <div class="home-practo-app-image-container">
           <img
@@ -16,6 +18,7 @@
             app. Connect with doctors online, available 24/7, from the comfort
             of your home.
           </p>
+
           <p>Get the link to download the app</p>
           <div class="home-practo-app-input">
             <b-input-group class="home-practo-app-inputGroup" size="lg">
