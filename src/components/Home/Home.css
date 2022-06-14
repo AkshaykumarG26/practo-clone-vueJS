@@ -194,6 +194,17 @@
     justify-content: space-around;
 }
 
+
+@media screen and (max-width: 480px) {
+    .home-consult-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
 .home-appoinments {
     text-align: left;
     margin-top: 40px;

@@ -17,6 +17,15 @@
     width: 100%;
 }
 
+
+@media screen and (max-width: 480px) {
+    .consult-card-img-container > img {
+        width: 500px;
+        margin-left: 100px;
+        /* border: 1px solid black;         */
+    }
+}
+
 .consult-card-title {
     margin-top: 12px;
     color: #414146;
