@@ -1,33 +1,39 @@
-/* .headBGcolor1 {
+.headBGcolor1 {
     background-color: #e7f1f8;
 }
 
 .headBGcolor2 {
-    background-color: #f7e8e6;
+    background-color: #F7E8E6;
 }
 
 .headBGcolor3 {
     background-color: #eeebf8;
-} */
+}
 
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
 .contact_lab {
     width: 100%;
     height: 20%;
     background-color: #e6f5fc;
+    ;
     border-radius: 14px;
     font-family: Helvetica, Arial, sans-serif;
     display: flex;
     justify-content: space-between;
 }
 
+
+
+
 .contact_pic p:nth-child(1) {
     padding-top: 3%;
     font-weight: bolder;
     font-size: 20px;
+
 }
 
 .contact_pic p:nth-child(2) {
@@ -35,13 +41,17 @@ body {
     font-weight: lighter;
     font-size: 12px;
     line-height: 0px;
+
 }
+
+
 
 .contact_num {
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
     margin-right: 2%;
+
 }
 
 .promo_code>h4 {
@@ -56,6 +66,7 @@ body {
 .promo_img>img {
     margin-top: 1%;
     width: 26%;
+
 }
 
 .top_tests>h4 {
@@ -67,6 +78,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 6px;
+
 }
 
 .test_div {
@@ -104,6 +116,7 @@ body {
     color: rgb(79, 197, 218);
 }
 
+
 .health_img {
     display: flex;
     flex-direction: row;
@@ -114,39 +127,89 @@ body {
     padding: 5px;
 }
 
+.health_img > button > .h_img > img{
+        width: 100%;
+        padding: 0;
+
+}
+
 .h_img>img {
     width: 300px;
 }
 
 .health_div {
-    /* text-align: left; */
-    /* width: 70%; */
+    text-align: left;
+    /* border: 1px solid black; */
     margin: auto;
-    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+
 }
+
 
 .health_img>button {
     border: none;
     border-style: none;
     border: 0;
     background: transparent;
+
 }
+
+
 
 .introducing_stuff {
     display: flex;
-    width: 70%;
-    margin: auto;
     /* border: 2px solid black */
+}
+
+@media screen and (max-width:720px) {
+.introducing_stuff {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .introducing_stuff img {
     width: 500px;
     height: 250px;
-    border: none;
+    border: none
 }
 
 .introducing_stuff p {
     font-size: 25px;
     font-weight: 300;
     color: rgb(92, 91, 91);
+}
+
+
+
+p{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.know-your-medicine{
+    margin-top: 20px;
+}
+
+
+.know-your-medicine > img{
+    height: 340px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 720px){   
+    .know-your-medicine > img{
+        height: 150px;
+    }
 }

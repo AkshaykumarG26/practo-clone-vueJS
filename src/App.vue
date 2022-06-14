@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .main{
-  /* transform: scale(1); */
+  transform: scale(1);
   overflow-x:hidden;
   width: 100%;
 
