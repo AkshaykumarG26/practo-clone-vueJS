@@ -1,16 +1,12 @@
 .home-practo-app {
     margin-top: 60px;
     height: 576px;
-    /* background-color: #f8f8fb; */
     width: 100%;
-    /* max-width: 1180px; */
-    /* width: 872px; */
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    /* position: relative; */
 }
 
 .home-practo-app-background {
