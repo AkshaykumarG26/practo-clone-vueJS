@@ -12,7 +12,7 @@
 .home-practo-app-background {
     position: absolute;
     left: 0;
-    background-color: #4a4a88;
+    background-color: #efeff3;
     height: 576px;
     z-index: -2;
     margin: auto;
@@ -55,6 +55,21 @@
 
     .home-practo-app-image-container>img {
         display: none;
+    }
+
+
+    .home-practo-app-input {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+    .home-practo-app-inputGroup {
+        max-width: 50px;
+        border-radius: 4px;
+        margin-right: 20px;
     }
 }
 

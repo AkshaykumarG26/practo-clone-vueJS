@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <Navbar/>
     <Footer/>
   </div>
@@ -17,4 +17,11 @@ export default {
 }
 }
 </script>
+
+
+<style scoped>
+.main{
+  transform: scale(1);
+}
+</style>
 
