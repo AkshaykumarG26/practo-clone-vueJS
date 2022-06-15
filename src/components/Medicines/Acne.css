@@ -1,10 +1,25 @@
+h2{
+    margin-left: 100px;
+}
+
+
 .medicine {
-    /* border: 2px solid red; */
-    width: 50%;
-    margin: auto;
+    border: 1px solid wheat;
+    /* width: 50%; */
+
+    margin: 20px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
+    /* grid-template-columns: auto auto; */
+    /* grid-gap: 20px; */
+}
+
+
+.allProducts{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 33% 33% 33%;
+    width: 90%;
+    margin: auto;
 }
 
 .mainMedicine {

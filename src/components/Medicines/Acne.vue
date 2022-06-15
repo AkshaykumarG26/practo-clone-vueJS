@@ -2,21 +2,30 @@
   <div>
     <div>
       <h2>Acne</h2>
-      <div class="medicine" v-for="product in acnedata" v-bind:key="product.id">
-        <div class="mainMedicine">
-          <!-- <Link class="know_more" to={`/acne/${e.id}`}>
+      <h2 v-if="this.acneData === null">Loading....</h2>
+      <div class="allProducts">
+        <div
+          class="medicine"
+          v-for="product in acnedata"
+          v-bind:key="product.id"
+        >
+          <div class="mainMedicine">
+            <!-- <Link class="know_more" to={`/acne/${e.id}`}>
                     </Link> -->
-                        <img class="M_img" :src=product.image alt="text" />
-          <hr />
-          <p class="m_Name">{{ product.title }}</p>
-          <p class="m_price">
-            ₹{{ product.price }}&nbsp;&nbsp;<span class="m_price1"
-              >₹{{ product.price1 }}</span
-            >&nbsp;&nbsp;<span class="m_discount">{{ product.discount }}</span>
-          </p>
-          <div class="m_unitbtn">
-            <p>{{ product.unitcount }}</p>
-            <button class="addtocart">ADD</button>
+            <img class="M_img" :src="product.image" alt="text" />
+            <hr />
+            <p class="m_Name">{{ product.title }}</p>
+            <p class="m_price">
+              ₹{{ product.price }}&nbsp;&nbsp;<span class="m_price1"
+                >₹{{ product.price1 }}</span
+              >&nbsp;&nbsp;<span class="m_discount">{{
+                product.discount
+              }}</span>
+            </p>
+            <div class="m_unitbtn">
+              <p>{{ product.unitcount }}</p>
+              <button class="addtocart">ADD</button>
+            </div>
           </div>
         </div>
       </div>

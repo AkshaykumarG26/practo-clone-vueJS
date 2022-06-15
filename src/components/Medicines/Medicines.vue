@@ -12,14 +12,14 @@
 
         <div class="health_img">
           <button>
+            <router-link to="/medicines/acne">
             <div class="h_img">
-              <router-link to="/medicines/acne">
                 <img
                   src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/h-c-5.a8ae14dd.png"
                   alt=""
                 />
-          </router-link>
               </div>
+          </router-link>
             </button>
           <button>
             <div class="h_img">
