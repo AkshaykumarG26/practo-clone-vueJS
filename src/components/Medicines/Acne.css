@@ -1,4 +1,4 @@
-h2{
+h2 {
     margin-left: 100px;
 }
 
@@ -14,12 +14,53 @@ h2{
 }
 
 
-.allProducts{
+.allProducts {
     display: grid;
     padding: 10px;
     grid-template-columns: 33% 33% 33%;
     width: 90%;
     margin: auto;
+}
+
+
+@media screen and (max-width: 720px) {
+    .medicine {
+            border: 1px solid wheat;
+            /* width: 50%; */
+    
+            margin: 20px;
+            display: block;
+
+            
+            /* grid-gap: 20px; */
+        }
+    .allProducts {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .M_img {
+        width: inherit;
+        margin: auto;
+        /* border: 3px solid red; */
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .allProducts {
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+        margin: auto;
+    }
+
+    .M_img {
+        width: auto;
+    }
 }
 
 .mainMedicine {
@@ -32,7 +73,7 @@ h2{
 }
 
 .M_img {
-    width: 280px;
+    width: 200px;
 }
 
 /* hr {

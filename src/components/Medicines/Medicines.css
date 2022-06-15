@@ -127,9 +127,9 @@ body {
     padding: 5px;
 }
 
-.health_img > button > .h_img > img{
-        width: 100%;
-        padding: 0;
+.health_img>button>.h_img>img {
+    width: 100%;
+    padding: 0;
 
 }
 
@@ -162,12 +162,7 @@ body {
     /* border: 2px solid black */
 }
 
-@media screen and (max-width:720px) {
-.introducing_stuff {
-        display: flex;
-        flex-direction: column;
-    }
-}
+
 
 .introducing_stuff img {
     width: 500px;
@@ -183,7 +178,7 @@ body {
 
 
 
-p{
+p {
     margin-top: 20px;
     margin-left: 5px;
     font-size: 20px;
@@ -192,24 +187,24 @@ p{
 }
 
 
-
-
-
-
-
-.know-your-medicine{
+.know-your-medicine {
     margin-top: 20px;
 }
 
 
-.know-your-medicine > img{
+.know-your-medicine>img {
     height: 340px;
     width: 100%;
 }
 
 
-@media screen and (max-width: 720px){   
-    .know-your-medicine > img{
+@media screen and (max-width: 720px) {
+    .know-your-medicine>img {
         height: 150px;
+    }
+
+    .introducing_stuff {
+        display: flex;
+        flex-direction: column;
     }
 }
