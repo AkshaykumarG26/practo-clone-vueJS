@@ -15,6 +15,7 @@ import VueRouter from "vue-router";
 import Home from "./components/Home/Home"
 import Medicines from "./components/Medicines/Medicines";
 import LabTest from './components/LabTest/LabTest'
+import Acne from "././components/Medicines/Acne"
 
 Vue.use(VueRouter);
 
@@ -22,6 +23,7 @@ Vue.use(VueRouter);
 const routes = [
   { path: "/", component: Home },
   { path: "/medicines", component: Medicines },
+  { path: "/medicines/acne", component: Acne },
   { path: "/labtest", component: LabTest },
 ];
 

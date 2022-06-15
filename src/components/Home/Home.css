@@ -99,7 +99,7 @@
     border: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     .home-banner {
         cursor: pointer;
         background: linear-gradient(105.21deg, #3743ab 2.85%, #141b56 99.41%);
@@ -170,6 +170,18 @@
     }
 }
 
+
+@media screen and (max-width: 720px) and (min-width: 480px) {
+    .home-facilities {
+        /* margin: 50px; */
+        display: grid;
+
+        grid-template-columns: auto auto auto;
+        gap: 5px;
+    }
+}
+
+
 .home-consult {
     /* text-align: left; */
     margin-left: 6%;
@@ -195,13 +207,24 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     .home-consult-card-container {
         display: block;
         /* flex-direction: column; */
     }
 }
 
+
+@media screen and (max-width: 720px) and (min-width: 480px) {
+    @media screen and (max-width: 720px) {
+        .home-consult-card-container {
+            display: grid;
+
+            grid-template-columns: auto auto auto;
+            gap: 5px;
+        }
+    }
+}
 
 
 .home-appoinments {
@@ -217,7 +240,7 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     .appoinments-slider-container {
         display: flex;
         flex-direction: column;
@@ -227,6 +250,21 @@
         width: 100%;
     }
 }
+
+
+@media screen and (max-width: 720px) and (min-width: 480px){
+    .appoinments-slider-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            align-items: center;
+            margin-left: 1px;
+            width: 100%;
+        }
+}
+
+
+
 
 .home-appoinments>p:nth-of-type(1) {
     margin-top: 5px;
@@ -274,18 +312,14 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     .home-top-articles {
         margin-top: 20px;
         border-top: 1px solid #dfdfe5;
         border-bottom: 1px solid #dfdfe5;
-        /* padding: 50px 110px 30px 110px; */
         display: flex;
         flex-direction: column;
-        /* margin-right: auto; */
         align-items: center;
-
-        /* border: 2px solid blue; */
     }
 
     .home-top-articles {
@@ -293,6 +327,25 @@
     }
 
 }
+
+@media screen and (max-width: 720px) and (min-width: 480px) {
+
+    .home-top-articles {
+            margin-top: 20px;
+            border-top: 1px solid #dfdfe5;
+            border-bottom: 1px solid #dfdfe5;
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .home-top-articles {
+            padding-top: 5px;
+        }
+
+}
+
 
 .button-primary {
     padding: 15px 30px;

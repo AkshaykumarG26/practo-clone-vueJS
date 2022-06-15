@@ -3,6 +3,7 @@
     <Navbar/>
     <Footer/>
   </div>
+  
 </template>
 
 <script>
